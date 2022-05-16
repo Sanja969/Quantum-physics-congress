@@ -1,8 +1,38 @@
 * {
   font-family: 'Lato', sans-serif;
+  color: #272a31;
 }
 
-h1 {
+.greeting {
+  color: #ec5242;
+}
+
+.title {
   font-family: 'COCOGOOSE', sans-serif;
+  font-size: 35px;
+  background: -webkit-linear-gradient(45deg,
+  #ec5242, #ec5242, #49140f, rgb(228, 47, 47), #ec5242, #f76656);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
+.nav-menu {
+  display: none;
+}
+  
+.navbar-brand {
+  display: none; 
+}
+
+.nav-color {
+  background: rgba(255, 255, 255, 0);
+}
+
+.headline {
+  background: #f3f3f3 url('images/main-img.png') no-repeat center top;
+  background-size: cover;
+}
+
+time {
+  font-family: 'COCOGOOSE', sans-serif;  
+}
