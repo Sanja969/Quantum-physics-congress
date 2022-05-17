@@ -219,4 +219,8 @@ a > span {
   footer > small{
     color: #d3d3d3;
   }
+
+  .titleAbout {
+    font-size: 36px;
+  }
 }
