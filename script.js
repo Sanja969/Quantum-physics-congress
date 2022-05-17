@@ -14,7 +14,7 @@ const lessBtn = moreBtn.cloneNode(true);
 
 speakerImg.setAttribute('src', '');
 
-
+speakersContainer.style.display = 'grid';
 
 speakerText.style.display = 'flex';
 speakerText.style.flexDirection = 'column';
@@ -22,6 +22,7 @@ speakerText.style.paddingLeft = '10px';
 
 speakerBox.style.display = 'flex';
 speakerBox.style.margin = '10px';
+speakerBox.style.maxWidth = '400px';
 
 speakerName.textContent = 'Name';
 speakerTitle.textContent = 'We will introduce you to this';
@@ -30,11 +31,11 @@ speakerDescription.textContent = ' amasing limitless fielnd where all low of phy
 
 speakerName.style.fontWeight = '700';
 speakerTitle.style.color = '#ec5242';
-speakerTitle.style.fontSize = '12px';
+speakerTitle.style.fontSize = '10px';
 speakerTitle.style.paddingBottom = '0';
 
 speakerDescription.style.paddingTop = '5px';
-speakerDescription.style.fontSize = '12px';
+speakerDescription.style.fontSize = '10px';
 
 moreTxt.textContent = 'MORE';
 lessBtn.textContent = 'LESS';
@@ -112,7 +113,7 @@ const person3 = {
 }
 
 const person4 = {
-  image: 'https://m.media-amazon.com/images/M/MV5BNTU4NjE3NDY3OF5BMl5BanBnXkFtZTYwMDA2MTQ3._V1_UY1200_CR84,0,630,1200_AL_.jpg',
+  image: 'https://static.wikia.nocookie.net/xyag/images/5/5d/Heldon.jpg/revision/latest?cb=20190917215448',
   name: 'Sheldon Cooper',
   title: 'Former senior theoretical particle physicist at the California Institute of Technology',
   description: 'Originally from East Texas, Sheldon started college at the age of 11,\
@@ -143,7 +144,7 @@ for (let i=0; i < 6; i += 1) {
   speakerClone.children[1].children[1].textContent = presenters[i].title;
   speakerClone.children[1].children[3].textContent = presenters[i].description;
 
-  speakerClone.children[0].style.width='150px';
+  speakerClone.children[0].style.maxWidth='100px';
   speakerClone.children[0].style.height='auto';
 
   speakersContainer.appendChild(speakerClone);
@@ -157,20 +158,28 @@ for (let i=0; i < 6; i += 1) {
   if (i >= 2 && window.screen.width <= 768) {
     speakerClone.style.display = 'none';
     speakersContainer.appendChild(moreBtn);
+    speakersContainer.style.gridTemplateColumns = 'repeat(1,auto)';
   }
   else if (i >= 2) {
     speakersContainer.appendChild(moreBtn);
     moreBtn.style.display = 'none';
+    speakersContainer.style.gridTemplateColumns = 'repeat(2,auto)';
   }
+  else {
+    speakersContainer.style.gridTemplateColumns = 'repeat(2,auto)';
+  }
+
   window.addEventListener('resize', () => {
     if (i >= 2 && window.screen.width <= 768) {
       speakerClone.style.display = 'none';
       moreBtn.style.display = 'flex';
+      speakersContainer.style.gridTemplateColumns = 'repeat(1,auto)';
       }
     else {
       speakerClone.style.display = 'flex';
       moreBtn.style.display = 'none';
       lessBtn.style.display = 'none';
+      speakersContainer.style.gridTemplateColumns = 'repeat(2,auto)';
     }
   });
 

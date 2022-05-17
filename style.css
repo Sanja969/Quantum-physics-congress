@@ -3,6 +3,10 @@
   color: #272a31;
 }
 
+.nav-color {
+  background-color: rgba(255, 255, 255, 0.007);
+}
+
 .greeting {
   color: #ec5242;
 }
@@ -16,16 +20,8 @@
   -webkit-text-fill-color: transparent;
 }
 
-.nav-menu {
-  display: none;
-}
-  
 .navbar-brand {
   display: none; 
-}
-
-.nav-color {
-  background: rgba(255, 255, 255, 0);
 }
 
 .headline {
@@ -39,25 +35,32 @@ time {
 
 #main-program {
   background: url('https://cdn.pixabay.com/photo/2016/03/26/05/19/fractal-1280084_960_720.jpg');
+  padding: 20px;
+}
+.table {
+  flex-direction: column;
 }
 
-#main-program > article {
+.table > article {
   background-color: #69696e6b;
+  min-height: 100px;
+  max-width: 400px;
 }
 
-#main-program > article > * {
+.table > article > h6 {
   color: #ec5242;
+  width: 25%;
 }
 
-#main-program > article > small {
+.table > article > small {
   color: #d3d3d3;
+  width: 50%;
 }
 
 #main-program > h6,
-#main-program > div{
+.line {
   color: #d3d3d3;
-  transform: translateX(-50%);
-  margin-left: 50%;
+ 
   font-family: 'COCOGOOSE', sans-serif;
 }
 
@@ -66,15 +69,13 @@ time {
   width: 40px;
 }
 
-.main-program > article {
+.table >article {
   background-color: #6264697a;
 }
 
 .join {
   background: #ec5242;
   border: none;
-  transform: translateX(-50%);
-  margin-left: 50%;
   min-width: 85%;
 }
 
@@ -136,4 +137,86 @@ time {
 
 a > span {
   text-align: center;
+}
+
+.programBtn {
+  display: none;
+}
+
+@media (min-width: 768px) {
+
+  .nav-color {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 5px 5px #272a3163;
+    position: fixed!important;
+  }
+    
+  .navbar-brand {
+    display: flex; 
+  }
+
+  .headline > div {
+    width: 700px;
+  }
+
+  .greeting {
+    margin-top: 100px;
+  }
+
+  .table {
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .table > * {
+    max-width: 100px;
+    margin-right: 1px;
+    max-width: 150px;
+  }
+
+  .table > article > h6 {
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .table > article > small {
+    width: 100%;
+    font-size: 8px;
+    text-align: center;
+  }
+
+  .table > article {
+    flex-direction: column;
+    max-width: 150px;
+    height: 130px;
+    
+  }
+
+  .programBtn {
+    display: block;
+    font-size: 12px;
+  }
+
+  .join {
+    display: none;
+  }
+
+  .pastBox {
+    flex-direction: row!important;
+    padding: 50px;
+  }
+
+  .partners {
+    display: none!important;
+  }
+
+  footer {
+    background-color: #272a31;
+  }
+
+  footer > small{
+    color: #d3d3d3;
+  }
 }
