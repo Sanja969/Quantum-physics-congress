@@ -36,3 +36,104 @@
 time {
   font-family: 'COCOGOOSE', sans-serif;  
 }
+
+#main-program {
+  background: url('https://cdn.pixabay.com/photo/2016/03/26/05/19/fractal-1280084_960_720.jpg');
+}
+
+#main-program > article {
+  background-color: #69696e6b;
+}
+
+#main-program > article > * {
+  color: #ec5242;
+}
+
+#main-program > article > small {
+  color: #d3d3d3;
+}
+
+#main-program > h6,
+#main-program > div{
+  color: #d3d3d3;
+  transform: translateX(-50%);
+  margin-left: 50%;
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
+.line{
+  border-bottom: 1px solid #ec5242;
+  width: 40px;
+}
+
+.main-program > article {
+  background-color: #6264697a;
+}
+
+.join {
+  background: #ec5242;
+  border: none;
+  transform: translateX(-50%);
+  margin-left: 50%;
+  min-width: 85%;
+}
+
+.titleAbout {
+  color: #ec5242;
+  font-weight: 800;
+  font-family: 'COCOGOOSE', sans-serif; 
+  font-size: 26px;
+  text-align: center;
+}
+
+#partners > h2 {
+  color: #f3f3f3;
+}
+
+#partners {
+  background-color: #272a31;
+}
+
+.congress-2018,
+.congress-2015 {
+  border: 1px solid grey;
+  width: 350px;
+  height: 250px;
+  background-size: cover;
+}
+
+.congress-2015 {
+  background-image: url('https://cdn.pixabay.com/photo/2019/08/05/15/18/people-4386248_960_720.png');
+  background-color: #330303;
+}
+
+.congress-2018 {
+  background-image: url('https://cdn.pixabay.com/photo/2020/09/17/18/05/people-5579977_960_720.png');
+  background-color: #330303;
+}
+
+.year {
+  font-size: 46px;
+  font-weight: 800;
+  color: #d3d3d3;
+  text-shadow: 5px 5px #0e0c0c;
+}
+
+.congress-2018 >small,
+.congress-2015 >small{
+  text-shadow: 5px 5px #0e0c0c;
+}
+
+.titleSmall {
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.desSmall {
+  font-size: 12px;
+  text-align: center;
+}
+
+a > span {
+  text-align: center;
+}
