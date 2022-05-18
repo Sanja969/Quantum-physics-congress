@@ -14,10 +14,12 @@
 .title {
   font-family: 'COCOGOOSE', sans-serif;
   font-size: 35px;
-  background: -webkit-linear-gradient(45deg,
-  #ec5242, #ec5242, #49140f, rgb(228, 47, 47), #ec5242, #f76656);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  background:
+    -webkit-linear-gradient(
+      45deg,
+    #ec5242, #ec5242, #49140f, rgb(228, 47, 47), #ec5242, #f76656);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .navbar-brand {
@@ -37,6 +39,7 @@ time {
   background: url('images/quantum1.jpg');
   padding: 20px;
 }
+
 .table {
   flex-direction: column;
 }
@@ -60,11 +63,10 @@ time {
 #main-program > h6,
 .line {
   color: #d3d3d3;
- 
   font-family: 'COCOGOOSE', sans-serif;
 }
 
-.line{
+.line {
   border-bottom: 1px solid #ec5242;
   width: 40px;
 }
@@ -121,7 +123,7 @@ time {
 }
 
 .congress-2018 >small,
-.congress-2015 >small{
+.congress-2015 >small {
   text-shadow: 5px 5px #0e0c0c;
 }
 
@@ -181,6 +183,10 @@ a > span {
     text-align: center;
   }
 
+  footer > small {
+    color: #d3d3d3;
+  }
+
   .table > article > small {
     width: 100%;
     font-size: 8px;
@@ -191,7 +197,6 @@ a > span {
     flex-direction: column;
     max-width: 150px;
     height: 130px;
-    
   }
 
   .programBtn {
@@ -204,20 +209,16 @@ a > span {
   }
 
   .pastBox {
-    flex-direction: row!important;
+    flex-direction: row !important;
     padding: 50px;
   }
 
   .partners {
-    display: none!important;
+    display: none !important;
   }
 
   footer {
     background-color: #272a31;
-  }
-
-  footer > small{
-    color: #d3d3d3;
   }
 
   .titleAbout {
