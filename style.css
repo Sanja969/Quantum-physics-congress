@@ -17,15 +17,15 @@
   background:
     -webkit-linear-gradient(
       45deg,
-    #ec5242,
-    #ec5242,
-    #49140f,
-    rgb(228, 47, 47),
-    #ec5242,
-    #f76656
+      #ec5242,
+      #ec5242,
+      #49140f,
+      rgb(228, 47, 47),
+      #ec5242,
+      #f76656
     );
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
 }
 
 .navbar-brand {
@@ -44,26 +44,6 @@ time {
 #main-program {
   background: url('images/quantum1.jpg');
   padding: 20px;
-}
-
-.table {
-  flex-direction: column;
-}
-
-.table > article {
-  background-color: #6264697a;
-  min-height: 100px;
-  max-width: 400px;
-}
-
-.table > article > h6 {
-  color: #ec5242;
-  width: 25%;
-}
-
-.table > article > small {
-  color: #d3d3d3;
-  width: 50%;
 }
 
 #main-program > h6,
@@ -147,6 +127,26 @@ a > span {
   display: none;
 }
 
+.table {
+  flex-direction: column;
+}
+
+.table > article {
+  background-color: #6264697a;
+  min-height: 100px;
+  max-width: 400px;
+}
+
+.table > article > h6 {
+  color: #ec5242;
+  width: 25%;
+}
+
+.table > article > small {
+  color: #d3d3d3;
+  width: 50%;
+}
+
 @media (min-width: 768px) {
   .nav-color {
     background-color: rgb(255, 255, 255);
@@ -183,6 +183,10 @@ a > span {
     text-align: center;
   }
 
+  footer {
+    background-color: #272a31;
+  }
+
   footer > small {
     color: #d3d3d3;
   }
@@ -215,10 +219,6 @@ a > span {
 
   .partners {
     display: none !important;
-  }
-
-  footer {
-    background-color: #272a31;
   }
 
   .titleAbout {
