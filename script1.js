@@ -7,7 +7,6 @@ const cencelImg = document.createElement('img');
 const logo = document.createElement('a');
 const logoImg = document.createElement('img');
 
-
 mobileMenu.appendChild(cencelImg);
 mobileMenu.appendChild(logo);
 mobileMenu.appendChild(list);
@@ -17,9 +16,8 @@ logoImg.style.width = '40px';
 logoImg.style.height = '80px';
 logoImg.style.paddingTop = '40px';
 
-logo.setAttribute('href', 'index.html')
+logo.setAttribute('href', 'index.html');
 logoImg.setAttribute('src', 'images/logo.png');
-
 
 function hideMobileMenu() {
   containerMobiMenu.style.display = 'none';
@@ -51,8 +49,8 @@ line.style.width = '33%';
 line.style.borderBottom = '5px solid #3c3a39';
 line.style.marginLeft = '33%';
 line.style.paddingTop = '30px';
-line.style.marginBottom= '30px';
-list.style.height = '700px'
+line.style.marginBottom = '30px';
+list.style.height = '700px';
 
 mobileMenu.children[0].src = 'images/cencel.png';
 mobileMenu.children[0].style.float = 'right';
@@ -80,7 +78,6 @@ for (let i = 0; i < 6; i += 1) {
   mobileMenu.children[2].children[i].style.width = '80%';
   mobileMenu.children[2].children[i].addEventListener('click', hideMobileMenu);
 }
-
 
 mobileMenu.children[0].addEventListener('click', hideMobileMenu);
 

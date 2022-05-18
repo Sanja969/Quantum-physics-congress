@@ -47,7 +47,6 @@ arrowTxt.style.color = '#ec5242';
 arrowTxt.style.transform = 'scaleY(0.5)';
 arrowTxt.style.fontWeight = '700';
 
-
 arrowTxtUp.textContent = ' ^';
 arrowTxtUp.style.fontSize = '24px';
 arrowTxtUp.style.marginLeft = '10px';
@@ -64,7 +63,7 @@ moreBtn.style.borderRadius = '5px';
 moreBtn.style.margin = '30px 0';
 moreBtn.style.display = 'flex';
 moreBtn.style.alignItems = 'center';
-moreBtn.style.justifyContent ='center';
+moreBtn.style.justifyContent = 'center';
 moreBtn.style.paddingTop = '15px';
 
 lessBtn.style.border = '1px solid #272a31';
@@ -75,8 +74,7 @@ lessBtn.style.borderRadius = '5px';
 lessBtn.style.margin = '30px 0';
 lessBtn.style.display = 'flex';
 lessBtn.style.alignItems = 'center';
-lessBtn.style.justifyContent ='center';
-
+lessBtn.style.justifyContent = 'center';
 
 speakerBox.appendChild(speakerImg);
 speakerBox.appendChild(speakerText);
@@ -94,58 +92,55 @@ const person1 = {
   image: 'images/spock.jpg',
   name: 'Mr. Spock',
   title: 'Science officer USS Enterprise.',
-  description: 'Serve aboard the starship USS Enterprise as science officer and first officer and later \
-  as commanding officer of two iterations of the vessel.',
-}
+  description: 'Serve aboard the starship USS Enterprise as science officer and first officer and later as commanding officer of two iterations of the vessel.',
+};
 
 const person2 = {
   image: 'images/grace.webp',
   name: 'Grace Augustine',
   title: 'Legend to the scientific personnel as the author of a comprehensive book on Pandora\'s plants.',
   description: 'She helped Jake Sully on the Avatar Program until she died due to a gunshot wound inflicted by Colonel Quaritch.',
-}
+};
 
 const person3 = {
   image: 'images/banner.jpeg',
   name: 'Bruce Banner',
   title: 'Ph.D. a.k.a. the Hulk is an American theoretical physicist, famed for his work into the studies of nuclear physics and gamma radiation',
   description: 'He was recruited by General Thaddeus "Thunderbolt" Ross and the US Army to develop the first Gamma Bomb.',
-}
+};
 
 const person4 = {
   image: 'images/sheldon.webp',
   name: 'Sheldon Cooper',
   title: 'Former senior theoretical particle physicist at the California Institute of Technology',
-  description: 'Originally from East Texas, Sheldon started college at the age of 11,\
-   receiving his first Ph.D. at the age of 16. As a kid, Sheldon was involved in numerous experiments as a "wunderkind.',
-}
+  description: 'Originally from East Texas, Sheldon started college at the age of 11, receiving his first Ph.D. at the age of 16. As a kid, Sheldon was involved in numerous experiments as a "wunderkind.',
+};
 
 const person5 = {
   image: 'images/xavier.png',
   name: 'Professor Xavier',
   title: 'founder and sometimes leader of the X-Men',
-  description: 'Xavier is a member of a subspecies of humans known as mutants, who are born with superhuman abilities.\
-   He is an exceptionally powerful telepath, who can read and control the minds of others.',
-}
+  description: 'Xavier is a member of a subspecies of humans known as mutants, who are born with superhuman abilities.He is an exceptionally powerful telepath, who can read and control the minds of others.',
+};
 
 const person6 = {
   image: 'images/bernadette.webp',
   name: 'Bernadette Rostenkowski-Wolowitz',
   title: 'Ph.D. in microbiology',
   description: 'lucrative job at the pharmaceutical company ZanGen/.',
-}
+};
 
 const presenters = [person1, person2, person3, person4, person5, person6];
 
-for (let i=0; i < 6; i += 1) {
+for (let i = 0; i < 6; i += 1) {
   const speakerClone = speakerBox.cloneNode(true);
   speakerClone.children[0].setAttribute('src', presenters[i].image);
   speakerClone.children[1].children[0].textContent = presenters[i].name;
   speakerClone.children[1].children[1].textContent = presenters[i].title;
   speakerClone.children[1].children[3].textContent = presenters[i].description;
 
-  speakerClone.children[0].style.maxWidth='100px';
-  speakerClone.children[0].style.height='auto';
+  speakerClone.children[0].style.maxWidth = '100px';
+  speakerClone.children[0].style.height = 'auto';
 
   speakersContainer.appendChild(speakerClone);
 
@@ -153,8 +148,8 @@ for (let i=0; i < 6; i += 1) {
     speakerClone.style.display = 'flex';
     moreBtn.style.display = 'none';
     lessBtn.style.display = 'flex';
-    
-});
+  });
+
   if (i >= 2 && window.screen.width <= 768) {
     speakerClone.style.display = 'none';
     speakersContainer.appendChild(moreBtn);
@@ -174,7 +169,7 @@ for (let i=0; i < 6; i += 1) {
       speakerClone.style.display = 'none';
       moreBtn.style.display = 'flex';
       speakersContainer.style.gridTemplateColumns = 'repeat(1,auto)';
-      }
+    }
     else {
       speakerClone.style.display = 'flex';
       moreBtn.style.display = 'none';
@@ -188,9 +183,8 @@ for (let i=0; i < 6; i += 1) {
       speakerClone.style.display = 'none';
       moreBtn.style.display = 'flex';
       lessBtn.style.display = 'none';
-      }
+    }
   });
-  
 }
 
 speakersContainer.appendChild(lessBtn);
@@ -204,7 +198,6 @@ const cencelImg = document.createElement('img');
 const logo = document.createElement('a');
 const logoImg = document.createElement('img');
 
-
 mobileMenu.appendChild(cencelImg);
 mobileMenu.appendChild(logo);
 mobileMenu.appendChild(list);
@@ -214,9 +207,8 @@ logoImg.style.width = '40px';
 logoImg.style.height = '80px';
 logoImg.style.paddingTop = '40px';
 
-logo.setAttribute('href', 'index.html')
+logo.setAttribute('href', 'index.html');
 logoImg.setAttribute('src', 'images/logo.png');
-
 
 function hideMobileMenu() {
   containerMobiMenu.style.display = 'none';
@@ -248,8 +240,8 @@ line.style.width = '33%';
 line.style.borderBottom = '5px solid #3c3a39';
 line.style.marginLeft = '33%';
 line.style.paddingTop = '30px';
-line.style.marginBottom= '30px';
-list.style.height = '700px'
+line.style.marginBottom = '30px';
+list.style.height = '700px';
 
 mobileMenu.children[0].src = 'images/cencel.png';
 mobileMenu.children[0].style.float = 'right';
@@ -277,7 +269,6 @@ for (let i = 0; i < 6; i += 1) {
   mobileMenu.children[2].children[i].style.width = '80%';
   mobileMenu.children[2].children[i].addEventListener('click', hideMobileMenu);
 }
-
 
 mobileMenu.children[0].addEventListener('click', hideMobileMenu);
 
