@@ -50,3 +50,9 @@ Give a ⭐️ if you like this project!
 - Inspiration
 - etc
 
+## Credits
+I give appropriatation and credits to [Cindy Shin](https://www.behance.net/adagio07) the [author of the original design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015), as required by the [Creative Commons License](https://creativecommons.org/licenses/).
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
