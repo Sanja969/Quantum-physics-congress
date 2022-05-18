@@ -1,0 +1,267 @@
+* {
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+}
+
+.nav-link:hover {
+  color: green;
+}
+
+.logo > img:hover {
+  width: 40px !important;
+  height: 40px !important;
+}
+
+.nav-color {
+  background-color: rgba(255, 255, 255, 0.007);
+}
+
+.greeting {
+  color: #ec5242;
+}
+
+.title {
+  font-family: 'COCOGOOSE', sans-serif;
+  font-size: 35px;
+  background:
+    -webkit-linear-gradient(
+      45deg,
+      #ec5242,
+      #ec5242,
+      #49140f,
+      rgb(228, 47, 47),
+      #ec5242,
+      #f76656
+    );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.navbar-brand {
+  display: none;
+}
+
+.headline {
+  background: #f3f3f3 url('images/main-img.png') no-repeat center top;
+  background-size: cover;
+}
+
+time {
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
+#main-program {
+  background: url('images/quantum1.jpg');
+  padding: 20px;
+}
+
+.line {
+  border-bottom: 1px solid #ec5242;
+  width: 40px;
+}
+
+.join {
+  background: #ec5242;
+  border: none;
+  min-width: 85%;
+}
+
+.join:hover {
+  background-color: #c74c058c;
+}
+
+.join:active {
+  background-color: #dbaf868c;
+}
+
+.titleAbout {
+  color: #ec5242;
+  font-weight: 800;
+  font-family: 'COCOGOOSE', sans-serif;
+  font-size: 26px;
+  text-align: center;
+}
+
+#partners > h2 {
+  color: #f3f3f3;
+}
+
+#partners {
+  background-color: #272a31;
+}
+
+.congress-2015 {
+  background-image: url('images/congress1.webp');
+}
+
+.congress-2018 {
+  background-image: url('images/congress2.png');
+}
+
+.congress-2018,
+.congress-2015 {
+  border: 1px solid grey;
+  width: 350px;
+  height: 250px;
+  background-size: cover;
+  cursor: pointer;
+  background-color: #153303;
+}
+
+.congress-2018:hover,
+.congress-2015:hover {
+  width: 370px;
+  height: 270px;
+}
+
+.year {
+  font-size: 46px;
+  font-weight: 800;
+  color: #d3d3d3;
+  text-shadow: 5px 5px #0e0c0c;
+}
+
+.congress-2018 > small,
+.congress-2015 > small {
+  text-shadow: 5px 5px #0e0c0c;
+}
+
+.titleSmall {
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.desSmall {
+  font-size: 12px;
+  text-align: center;
+}
+
+a > span {
+  text-align: center;
+}
+
+.programBtn {
+  display: none;
+}
+
+.table {
+  flex-direction: column;
+}
+
+.table > article {
+  background-color: #6264697a;
+  min-height: 100px;
+  max-width: 400px;
+}
+
+.table > article:hover {
+  background-color: #0c360c8c;
+}
+
+.table > article:active {
+  background-color: #1252128c;
+}
+
+.table > article > h6 {
+  color: #ec5242;
+  width: 25%;
+}
+
+.table > article > small {
+  color: #d3d3d3;
+  width: 50%;
+}
+
+#main-program > h6,
+.line {
+  color: #d3d3d3;
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
+@media (min-width: 768px) {
+  .nav-color {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 5px 5px #272a3163;
+    position: fixed !important;
+  }
+
+  .navbar-brand {
+    display: flex;
+  }
+
+  .headline > div {
+    width: 700px;
+  }
+
+  .greeting {
+    margin-top: 100px;
+  }
+
+  .table {
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .table > * {
+    margin-right: 1px;
+    max-width: 150px;
+  }
+
+  .table > article > h6 {
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+  }
+
+  footer {
+    background-color: #272a31;
+  }
+
+  footer > small {
+    color: #d3d3d3;
+  }
+
+  .table > article > small {
+    width: 100%;
+    font-size: 8px;
+    text-align: center;
+  }
+
+  .table > article {
+    flex-direction: column;
+    max-width: 150px;
+    height: 130px;
+    cursor: pointer;
+  }
+
+  .programBtn {
+    display: block;
+    font-size: 12px;
+  }
+
+  .join {
+    display: none;
+  }
+
+  .programBtn:hover {
+    color: #b6eea58c !important;
+  }
+
+  .programBtn:active {
+    color: #20b85a8c !important;
+  }
+
+  .pastBox {
+    flex-direction: row !important;
+    padding: 50px;
+  }
+
+  .partners {
+    display: none !important;
+  }
+
+  .titleAbout {
+    font-size: 36px;
+  }
+}

@@ -2,7 +2,8 @@
 
 # Portfolio
 
-> This is example of congress page. I'm using HTML, Bootstap, Javascript and css
+> This is example of Congress on Quantum Physics page. I made home and about pages. I main section of home page I descibed about this topic. I add section about program, feature speakers in home page. In about page I described what is this activity about. I add about logo and partners section on about page.
+> I was using HTML, Bootstap, CSS and Javascript for this project.
 
 
 
@@ -15,6 +16,12 @@
 ## Live Demo (if available)
 
 [Live Demo Link](https://sanja969.github.io/Quantum-physics-congress/)
+
+## Video about this project
+
+You can watch this video to see my website and its features
+
+[See Video](https://www.loom.com/share/6dea2b4a8c88475f9d4d95426056a2e7)
 
 
 ## Authors
@@ -43,3 +50,9 @@ Give a ⭐️ if you like this project!
 - Inspiration
 - etc
 
+## Credits
+I give appropriatation and credits to [Cindy Shin](https://www.behance.net/adagio07) the [author of the original design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015), as required by the [Creative Commons License](https://creativecommons.org/licenses/).
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
