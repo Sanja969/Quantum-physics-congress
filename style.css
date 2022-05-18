@@ -3,6 +3,20 @@
   color: #272a31;
 }
 
+.nav-link:hover {
+  color: green;
+}
+
+.logo > img:hover {
+  width: 40px !important;
+  height: 40px !important;
+}
+
+.logo > img:hover {
+  width: 40px !important;
+  height: 40px !important;
+}
+
 .nav-color {
   background-color: rgba(255, 255, 255, 0.007);
 }
@@ -57,6 +71,14 @@ time {
   min-width: 85%;
 }
 
+.join:hover {
+  background-color: #c74c058c;
+}
+
+.join:active {
+  background-color: #dbaf868c;
+}
+
 .titleAbout {
   color: #ec5242;
   font-weight: 800;
@@ -81,14 +103,22 @@ time {
   background-size: cover;
 }
 
+.congress-2018:hover,
+.congress-2015:hover {
+  width: 370px;
+  height: 270px;
+}
+
 .congress-2015 {
   background-image: url('images/congress1.webp');
   background-color: #330303;
+  cursor: pointer;
 }
 
 .congress-2018 {
   background-image: url('images/congress2.png');
-  background-color: #330303;
+  background-color: #153303;
+  cursor: pointer;
 }
 
 .year {
@@ -129,6 +159,14 @@ a > span {
   background-color: #6264697a;
   min-height: 100px;
   max-width: 400px;
+}
+
+.table > article:hover {
+  background-color: #0c360c8c;
+}
+
+.table > article:active {
+  background-color: #1252128c;
 }
 
 .table > article > h6 {
@@ -201,6 +239,7 @@ a > span {
     flex-direction: column;
     max-width: 150px;
     height: 130px;
+    cursor: pointer;
   }
 
   .programBtn {
@@ -210,6 +249,14 @@ a > span {
 
   .join {
     display: none;
+  }
+
+  .programBtn:hover {
+    color: #b6eea58c !important;
+  }
+  
+  .programBtn:active {
+    color: #20b85a8c !important;
   }
 
   .pastBox {
