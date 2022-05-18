@@ -24,8 +24,8 @@
       #ec5242,
       #f76656
     );
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .navbar-brand {
