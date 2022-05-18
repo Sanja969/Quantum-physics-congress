@@ -240,7 +240,7 @@ containerMobiMenu.style.width = '100%';
 containerMobiMenu.style.background = '#fff5e1';
 
 mobileMenu.style.paddingTop = '34px';
-mobileMenu.style.backgroundColor = '#3c3a39';
+mobileMenu.style.background = '#3c3a39 url("images/quantum2.jpg")';
 mobileMenu.style.height = '90%';
 mobileMenu.style.width = '100%';
 
