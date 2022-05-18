@@ -17,13 +17,19 @@
   background:
     -webkit-linear-gradient(
       45deg,
-    #ec5242, #ec5242, #49140f, rgb(228, 47, 47), #ec5242, #f76656);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    #ec5242,
+    #ec5242,
+    #49140f,
+    rgb(228, 47, 47),
+    #ec5242,
+    #f76656
+    );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
 }
 
 .navbar-brand {
-  display: none; 
+  display: none;
 }
 
 .headline {
@@ -32,7 +38,7 @@
 }
 
 time {
-  font-family: 'COCOGOOSE', sans-serif;  
+  font-family: 'COCOGOOSE', sans-serif;
 }
 
 #main-program {
@@ -45,7 +51,7 @@ time {
 }
 
 .table > article {
-  background-color: #69696e6b;
+  background-color: #6264697a;
   min-height: 100px;
   max-width: 400px;
 }
@@ -71,10 +77,6 @@ time {
   width: 40px;
 }
 
-.table >article {
-  background-color: #6264697a;
-}
-
 .join {
   background: #ec5242;
   border: none;
@@ -84,7 +86,7 @@ time {
 .titleAbout {
   color: #ec5242;
   font-weight: 800;
-  font-family: 'COCOGOOSE', sans-serif; 
+  font-family: 'COCOGOOSE', sans-serif;
   font-size: 26px;
   text-align: center;
 }
@@ -122,8 +124,8 @@ time {
   text-shadow: 5px 5px #0e0c0c;
 }
 
-.congress-2018 >small,
-.congress-2015 >small {
+.congress-2018 > small,
+.congress-2015 > small {
   text-shadow: 5px 5px #0e0c0c;
 }
 
@@ -146,15 +148,14 @@ a > span {
 }
 
 @media (min-width: 768px) {
-
   .nav-color {
     background-color: rgb(255, 255, 255);
     box-shadow: 0 0 5px 5px #272a3163;
-    position: fixed!important;
+    position: fixed !important;
   }
-    
+
   .navbar-brand {
-    display: flex; 
+    display: flex;
   }
 
   .headline > div {
@@ -172,7 +173,6 @@ a > span {
   }
 
   .table > * {
-    max-width: 100px;
     margin-right: 1px;
     max-width: 150px;
   }
