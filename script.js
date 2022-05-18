@@ -153,25 +153,31 @@ for (let i = 0; i < 6; i += 1) {
   if (i >= 2 && window.screen.width <= 768) {
     speakerClone.style.display = 'none';
     speakersContainer.appendChild(moreBtn);
-    speakersContainer.style.gridTemplateColumns = 'repeat(1,auto)';}
+    speakersContainer.style.gridTemplateColumns = 'repeat(1,auto)';
+  }
   else if (i >= 2) {
     speakersContainer.appendChild(moreBtn);
     moreBtn.style.display = 'none';
-    speakersContainer.style.gridTemplateColumns = 'repeat(2,auto)';}
+    speakersContainer.style.gridTemplateColumns = 'repeat(2,auto)';
+  }
   else {
     speakersContainer.style.gridTemplateColumns = 'repeat(2,auto)';
   }
 
   window.addEventListener('resize', () => {
+
     if (i >= 2 && window.screen.width <= 768) {
       speakerClone.style.display = 'none';
       moreBtn.style.display = 'flex';
-      speakersContainer.style.gridTemplateColumns = 'repeat(1,auto)';}
+      speakersContainer.style.gridTemplateColumns = 'repeat(1,auto)';
+    }
+
     else {
       speakerClone.style.display = 'flex';
       moreBtn.style.display = 'none';
       lessBtn.style.display = 'none';
-      speakersContainer.style.gridTemplateColumns = 'repeat(2,auto)';}
+      speakersContainer.style.gridTemplateColumns = 'repeat(2,auto)';
+    }
   });
 
   lessBtn.addEventListener('click', () => {
