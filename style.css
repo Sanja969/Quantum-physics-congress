@@ -24,8 +24,8 @@
       #ec5242,
       #f76656
     );
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
 }
 
 .navbar-brand {
@@ -44,12 +44,6 @@ time {
 #main-program {
   background: url('images/quantum1.jpg');
   padding: 20px;
-}
-
-#main-program > h6,
-.line {
-  color: #d3d3d3;
-  font-family: 'COCOGOOSE', sans-serif;
 }
 
 .line {
@@ -145,6 +139,12 @@ a > span {
 .table > article > small {
   color: #d3d3d3;
   width: 50%;
+}
+
+#main-program > h6,
+.line {
+  color: #d3d3d3;
+  font-family: 'COCOGOOSE', sans-serif;
 }
 
 @media (min-width: 768px) {
