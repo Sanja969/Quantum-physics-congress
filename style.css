@@ -12,11 +12,6 @@
   height: 40px !important;
 }
 
-.logo > img:hover {
-  width: 40px !important;
-  height: 40px !important;
-}
-
 .nav-color {
   background-color: rgba(255, 255, 255, 0.007);
 }
@@ -95,30 +90,28 @@ time {
   background-color: #272a31;
 }
 
+.congress-2015 {
+  background-image: url('images/congress1.webp');
+}
+
+.congress-2018 {
+  background-image: url('images/congress2.png'); 
+}
+
 .congress-2018,
 .congress-2015 {
   border: 1px solid grey;
   width: 350px;
   height: 250px;
   background-size: cover;
+  cursor: pointer;
+  background-color: #153303;
 }
 
 .congress-2018:hover,
 .congress-2015:hover {
   width: 370px;
   height: 270px;
-}
-
-.congress-2015 {
-  background-image: url('images/congress1.webp');
-  background-color: #330303;
-  cursor: pointer;
-}
-
-.congress-2018 {
-  background-image: url('images/congress2.png');
-  background-color: #153303;
-  cursor: pointer;
 }
 
 .year {
@@ -254,7 +247,7 @@ a > span {
   .programBtn:hover {
     color: #b6eea58c !important;
   }
-  
+
   .programBtn:active {
     color: #20b85a8c !important;
   }

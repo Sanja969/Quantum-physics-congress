@@ -142,14 +142,14 @@ for (let i = 0; i < 6; i += 1) {
   speakerClone.children[0].style.maxWidth = '100px';
   speakerClone.children[0].style.height = 'auto';
 
-  speakerClone.addEventListener('mouseover', ()=> {
-    speakerClone.style.border= '1px solid green';
-    speakerClone.style.background= '#77c94746';
+  speakerClone.addEventListener('mouseover', () => {
+    speakerClone.style.border = '1px solid green';
+    speakerClone.style.background = '#77c94746';
   });
 
-  speakerClone.addEventListener('mouseout', ()=> {
-    speakerClone.style.border= 'none';
-    speakerClone.style.background= 'inherit';
+  speakerClone.addEventListener('mouseout', () => {
+    speakerClone.style.border = 'none';
+    speakerClone.style.background = 'inherit';
   });
 
   speakersContainer.appendChild(speakerClone);
