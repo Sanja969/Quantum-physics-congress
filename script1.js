@@ -18,7 +18,7 @@ logoImg.style.height = '80px';
 logoImg.style.paddingTop = '40px';
 
 logo.setAttribute('href', 'index.html')
-logoImg.setAttribute('src', 'https://cdn.pixabay.com/photo/2017/11/16/09/34/science-2953886_960_720.png');
+logoImg.setAttribute('src', 'images/logo.png');
 
 
 function hideMobileMenu() {

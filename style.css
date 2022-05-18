@@ -34,7 +34,7 @@ time {
 }
 
 #main-program {
-  background: url('https://cdn.pixabay.com/photo/2016/03/26/05/19/fractal-1280084_960_720.jpg');
+  background: url('images/quantum1.jpg');
   padding: 20px;
 }
 .table {
@@ -104,12 +104,12 @@ time {
 }
 
 .congress-2015 {
-  background-image: url('https://cdn.pixabay.com/photo/2019/08/05/15/18/people-4386248_960_720.png');
+  background-image: url('images/congress1.webp');
   background-color: #330303;
 }
 
 .congress-2018 {
-  background-image: url('https://cdn.pixabay.com/photo/2020/09/17/18/05/people-5579977_960_720.png');
+  background-image: url('images/congress2.png');
   background-color: #330303;
 }
 

@@ -91,7 +91,7 @@ lessBtn.appendChild(arrowTxtUp);
 lessBtn.style.display = 'none';
 
 const person1 = {
-  image: 'https://www.writeups.org/wp-content/uploads/Spock-Star-Trek-Leonard-Nimoy.jpg',
+  image: 'images/spock.jpg',
   name: 'Mr. Spock',
   title: 'Science officer USS Enterprise.',
   description: 'Serve aboard the starship USS Enterprise as science officer and first officer and later \
@@ -99,21 +99,21 @@ const person1 = {
 }
 
 const person2 = {
-  image: 'https://static.wikia.nocookie.net/jamescameronsavatar/images/1/1d/Grace_with_headphones.jpg/revision/latest/scale-to-width-down/250?cb=20100112235059',
+  image: 'images/grace.webp',
   name: 'Grace Augustine',
   title: 'Legend to the scientific personnel as the author of a comprehensive book on Pandora\'s plants.',
   description: 'She helped Jake Sully on the Avatar Program until she died due to a gunshot wound inflicted by Colonel Quaritch.',
 }
 
 const person3 = {
-  image: 'https://pbs.twimg.com/profile_images/2449430588/z3andqntvly42kwaqokw_400x400.jpeg',
+  image: 'images/banner.jpeg',
   name: 'Bruce Banner',
   title: 'Ph.D. a.k.a. the Hulk is an American theoretical physicist, famed for his work into the studies of nuclear physics and gamma radiation',
   description: 'He was recruited by General Thaddeus "Thunderbolt" Ross and the US Army to develop the first Gamma Bomb.',
 }
 
 const person4 = {
-  image: 'https://static.wikia.nocookie.net/xyag/images/5/5d/Heldon.jpg/revision/latest?cb=20190917215448',
+  image: 'images/sheldon.webp',
   name: 'Sheldon Cooper',
   title: 'Former senior theoretical particle physicist at the California Institute of Technology',
   description: 'Originally from East Texas, Sheldon started college at the age of 11,\
@@ -121,7 +121,7 @@ const person4 = {
 }
 
 const person5 = {
-  image: 'https://www.personality-database.com/profile_images/522.png',
+  image: 'images/xavier.png',
   name: 'Professor Xavier',
   title: 'founder and sometimes leader of the X-Men',
   description: 'Xavier is a member of a subspecies of humans known as mutants, who are born with superhuman abilities.\
@@ -129,7 +129,7 @@ const person5 = {
 }
 
 const person6 = {
-  image: 'https://static.wikia.nocookie.net/characterpedia/images/8/8f/Bernadette_Rostenkowski.jpg/revision/latest?cb=20120616020603',
+  image: 'images/bernadette.webp',
   name: 'Bernadette Rostenkowski-Wolowitz',
   title: 'Ph.D. in microbiology',
   description: 'lucrative job at the pharmaceutical company ZanGen/.',
@@ -215,7 +215,7 @@ logoImg.style.height = '80px';
 logoImg.style.paddingTop = '40px';
 
 logo.setAttribute('href', 'index.html')
-logoImg.setAttribute('src', 'https://cdn.pixabay.com/photo/2017/11/16/09/34/science-2953886_960_720.png');
+logoImg.setAttribute('src', 'images/logo.png');
 
 
 function hideMobileMenu() {
