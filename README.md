@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio
+# Quantum Physics Congress
 
 > This is example of Congress on Quantum Physics page. I made home and about pages. I main section of home page I descibed about this topic. I add section about program, feature speakers in home page. In about page I described what is this activity about. I add about logo and partners section on about page.
 > I was using HTML, Bootstap, CSS and Javascript for this project.
