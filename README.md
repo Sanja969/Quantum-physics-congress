@@ -10,7 +10,7 @@
 ## Built With
 
 - Language: HTML, Javascript
-- Technologies: CSS, Linter, git, bootstap
+- Technologies: CSS, Linter, git, Bootstap
 
 
 ## Live Demo (if available)
